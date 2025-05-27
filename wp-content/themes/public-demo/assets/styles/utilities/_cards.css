@@ -1,0 +1,19 @@
+@tailwind components;
+
+@layer components {
+	.wcb-card {
+		@apply wcb-rounded-lg wcb-transition-all wcb-shadow-xl wcb-border wcb-border-solid wcb-border-black/10 wcb-bg-white wcb-p-4;
+
+		@apply hover:wcb-bg-teal-600/30 hover:wcb-border-teal-600/10 hover:wcb-shadow-2xl;
+	}
+
+	.wcb-card-shadow-sm {
+		@apply wcb-rounded-lg wcb-transition-all wcb-shadow-sm wcb-border wcb-border-solid wcb-border-black/10 wcb-bg-white wcb-p-4;
+
+		@apply hover:wcb-bg-teal-600/30 hover:wcb-border-teal-600/10 hover:wcb-shadow-lg;
+	}
+
+	.wcb-btn-card {
+		@apply wcb-flex wcb-items-center wcb-w-fit wcb-px-4 wcb-cursor-pointer wcb-gap-3 wcb-transition-all wcb-no-underline wcb-py-2 wcb-text-primary wcb-bg-white wcb-border wcb-border-primary wcb-rounded-3xl wcb-border-solid hover:wcb-text-white hover:wcb-bg-primary;
+	}
+}

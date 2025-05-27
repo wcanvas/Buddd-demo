@@ -1,0 +1,28 @@
+/* In order to check how this works please check to our [notion](https://www.notion.so/Stylesheet-2b093f23aef945d6a49ddb00fbe7ef2a?pvs=4#dc9b732432c04c298411819d968f343f) */
+@tailwind components;
+
+@layer components {
+	.wcb-container {
+		@apply wcb-max-w-screen-xl wcb-w-full wcb-mx-auto wcb-px-4 md:wcb-px-8;
+	}
+
+	.wcb-container-s {
+		@apply wcb-max-w-screen-lg wcb-w-full wcb-mx-auto wcb-px-4 md:wcb-px-8;
+	}
+
+	.wcb-container-xl {
+		@apply 2xl:wcb-max-w-screen-xl wcb-w-full wcb-mx-auto wcb-px-4 md:wcb-px-0;
+	}
+}
+
+/* Containers for core blocks */
+
+/* Container for pages */
+body.page .is-layout-constrained> :where(:not(.alignleft, .alignright, .alignfull)) {
+	@apply !wcb-max-w-screen-xl;
+}
+
+/* Container for all singles */
+body.single .is-layout-constrained> :where(:not(.alignleft, .alignfull, .alignright)) {
+	@apply !wcb-max-w-screen-xl;
+}

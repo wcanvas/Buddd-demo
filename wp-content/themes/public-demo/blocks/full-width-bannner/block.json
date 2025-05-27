@@ -1,0 +1,46 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "acf/full-width-bannner",
+  "title": "Full Width Bannner",
+  "category": "wcbfse-blocks",
+  "icon": "format-image",
+  "description": "A full-width banner block with stacked layout featuring a heading at the top and a full-width image below, set on a light green background with rounded corners.",
+  "keywords": [
+    "Full Width Bannner",
+    "banner",
+    "full-width",
+    "image",
+    "heading",
+    "hero"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {},
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}

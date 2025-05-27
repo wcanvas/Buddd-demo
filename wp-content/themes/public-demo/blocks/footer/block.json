@@ -1,0 +1,46 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "acf/footer",
+  "title": "Footer",
+  "category": "wcbfse-blocks",
+  "icon": "admin-site",
+  "description": "A comprehensive footer block with logo, navigation links, newsletter signup, copyright, policy links, and social icons. Features responsive design that stacks vertically on mobile within a centered max-width container.",
+  "keywords": [
+    "Footer",
+    "navigation",
+    "newsletter",
+    "social",
+    "copyright",
+    "links"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {},
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}

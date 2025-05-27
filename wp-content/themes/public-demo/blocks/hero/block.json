@@ -1,0 +1,47 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "acf/hero",
+  "title": "Hero",
+  "category": "wcbfse-blocks",
+  "icon": "cover-image",
+  "description": "A two-column hero section. The left column features a large, multiline heading, a smaller paragraph, and a call-to-action button ('Download the app'). The right column displays a large image with rounded corners. The entire block has a dark green background (#232e26), is vertically centered, and its content is centered within a 1440px max-width container.",
+  "keywords": [
+    "Hero",
+    "banner",
+    "jumbotron",
+    "call to action",
+    "two column",
+    "header",
+    "landing page"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {},
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}

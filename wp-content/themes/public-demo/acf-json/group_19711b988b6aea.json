@@ -1,0 +1,609 @@
+{
+  "key": "group_19711b988b6aea",
+  "title": "Block: Footer",
+  "fields": [
+    {
+      "key": "field_19711b988b6ab1",
+      "label": "Content",
+      "name": "",
+      "aria-label": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_19711ba9cd4489",
+      "label": "Logo",
+      "name": "logo",
+      "aria-label": "",
+      "type": "link",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "default_value": {
+        "url": "#",
+        "title": "TrailHive",
+        "target": "",
+        "rel": ""
+      }
+    },
+    {
+      "key": "field_19711ba9cd4658",
+      "label": "App Links",
+      "name": "app_links",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "collapsed": "",
+      "min": 0,
+      "max": 0,
+      "layout": "block",
+      "button_label": "Add App Link",
+      "rows_per_page": 20,
+      "sub_fields": [
+        {
+          "key": "field_19711b988b6ab4",
+          "label": "App Link",
+          "name": "",
+          "aria-label": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_19711b988b6ab5",
+          "label": "Link",
+          "name": "link",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "default_value": {
+            "url": "#",
+            "title": "Features",
+            "target": "",
+            "rel": ""
+          }
+        }
+      ],
+      "default_value": [
+        {
+          "link": {
+            "url": "#",
+            "title": "Features",
+            "target": "",
+            "rel": ""
+          }
+        },
+        {
+          "link": {
+            "url": "#",
+            "title": "Benefits",
+            "target": "",
+            "rel": ""
+          }
+        },
+        {
+          "link": {
+            "url": "#",
+            "title": "Pricing",
+            "target": "",
+            "rel": ""
+          }
+        },
+        {
+          "link": {
+            "url": "#",
+            "title": "Explore",
+            "target": "",
+            "rel": ""
+          }
+        },
+        {
+          "link": {
+            "url": "#",
+            "title": "Trails",
+            "target": "",
+            "rel": ""
+          }
+        }
+      ]
+    },
+    {
+      "key": "field_19711ba9cd4cc6",
+      "label": "Company Links",
+      "name": "company_links",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "collapsed": "",
+      "min": 0,
+      "max": 0,
+      "layout": "block",
+      "button_label": "Add Company Link",
+      "rows_per_page": 20,
+      "sub_fields": [
+        {
+          "key": "field_19711b988b6ab7",
+          "label": "Company Link",
+          "name": "",
+          "aria-label": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_19711b988b6ab8",
+          "label": "Link",
+          "name": "link",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "default_value": {
+            "url": "#",
+            "title": "About",
+            "target": "",
+            "rel": ""
+          }
+        }
+      ],
+      "default_value": [
+        {
+          "link": {
+            "url": "#",
+            "title": "About",
+            "target": "",
+            "rel": ""
+          }
+        },
+        {
+          "link": {
+            "url": "#",
+            "title": "Jobs",
+            "target": "",
+            "rel": ""
+          }
+        },
+        {
+          "link": {
+            "url": "#",
+            "title": "Press",
+            "target": "",
+            "rel": ""
+          }
+        },
+        {
+          "link": {
+            "url": "#",
+            "title": "Support",
+            "target": "",
+            "rel": ""
+          }
+        },
+        {
+          "link": {
+            "url": "#",
+            "title": "Members",
+            "target": "",
+            "rel": ""
+          }
+        }
+      ]
+    },
+    {
+      "key": "field_19711ba9cd4fa4",
+      "label": "Newsletter Form Action",
+      "name": "newsletter_form_action",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "#",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    },
+    {
+      "key": "field_19711ba9cd4132",
+      "label": "Newsletter Email Placeholder",
+      "name": "newsletter_email_placeholder",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Enter your email",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    },
+    {
+      "key": "field_19711ba9cd4f0f",
+      "label": "Newsletter Subscribe Button",
+      "name": "newsletter_subscribe_button",
+      "aria-label": "",
+      "type": "link",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "default_value": {
+        "url": "#",
+        "title": "Subscribe",
+        "target": "",
+        "rel": ""
+      }
+    },
+    {
+      "key": "field_19711ba9cd4ef5",
+      "label": "Privacy Policy Text",
+      "name": "privacy_policy_text",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "By subscribing you agree to with our",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    },
+    {
+      "key": "field_19711ba9cd457b",
+      "label": "Privacy Policy Link",
+      "name": "privacy_policy_link",
+      "aria-label": "",
+      "type": "link",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "default_value": {
+        "url": "#",
+        "title": "Privacy Policy",
+        "target": "",
+        "rel": ""
+      }
+    },
+    {
+      "key": "field_19711ba9cd4d17",
+      "label": "Copyright Text",
+      "name": "copyright_text",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "© 2023 TrailHive. All rights reserved.",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    },
+    {
+      "key": "field_19711ba9cd460d",
+      "label": "Social Media Links",
+      "name": "social_media_links",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "collapsed": "",
+      "min": 0,
+      "max": 0,
+      "layout": "block",
+      "button_label": "Add Social Media Link",
+      "rows_per_page": 20,
+      "sub_fields": [
+        {
+          "key": "field_19711b988b6ac0",
+          "label": "Social Media Link",
+          "name": "",
+          "aria-label": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_19711b988b6ac1",
+          "label": "Link",
+          "name": "link",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "default_value": {
+            "url": "#",
+            "title": "Facebook",
+            "target": "",
+            "rel": ""
+          }
+        },
+        {
+          "key": "field_19711b988b6ac2",
+          "label": "Icon Class",
+          "name": "icon_class",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "fab fa-facebook-f",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        }
+      ],
+      "default_value": [
+        {
+          "link": {
+            "url": "#",
+            "title": "Facebook",
+            "target": "",
+            "rel": ""
+          },
+          "icon_class": "fab fa-facebook-f"
+        },
+        {
+          "link": {
+            "url": "#",
+            "title": "Instagram",
+            "target": "",
+            "rel": ""
+          },
+          "icon_class": "fab fa-instagram"
+        },
+        {
+          "link": {
+            "url": "#",
+            "title": "Twitter",
+            "target": "",
+            "rel": ""
+          },
+          "icon_class": "fab fa-twitter"
+        },
+        {
+          "link": {
+            "url": "#",
+            "title": "LinkedIn",
+            "target": "",
+            "rel": ""
+          },
+          "icon_class": "fab fa-linkedin-in"
+        }
+      ]
+    },
+    {
+      "key": "field_19711ba9cd4686",
+      "label": "Legal Links",
+      "name": "legal_links",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "collapsed": "",
+      "min": 0,
+      "max": 0,
+      "layout": "block",
+      "button_label": "Add Legal Link",
+      "rows_per_page": 20,
+      "sub_fields": [
+        {
+          "key": "field_19711b988b6ac4",
+          "label": "Legal Link",
+          "name": "",
+          "aria-label": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_19711b988b6ac5",
+          "label": "Link",
+          "name": "link",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "default_value": {
+            "url": "#",
+            "title": "Privacy Policy",
+            "target": "",
+            "rel": ""
+          }
+        }
+      ],
+      "default_value": [
+        {
+          "link": {
+            "url": "#",
+            "title": "Privacy Policy",
+            "target": "",
+            "rel": ""
+          }
+        },
+        {
+          "link": {
+            "url": "#",
+            "title": "Terms of Service",
+            "target": "",
+            "rel": ""
+          }
+        },
+        {
+          "link": {
+            "url": "#",
+            "title": "Cookies Settings",
+            "target": "",
+            "rel": ""
+          }
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "block",
+        "operator": "==",
+        "value": "acf/footer"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 0,
+  "modified": 1748349131
+}

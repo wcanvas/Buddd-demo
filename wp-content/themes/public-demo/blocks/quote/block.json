@@ -1,0 +1,55 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "acf/quote",
+  "title": "Quote",
+  "category": "wcbfse-blocks",
+  "icon": "format-quote",
+  "description": "A testimonial block featuring a quote with author name, optional CTA button, section label, and customizable background image or pattern",
+  "keywords": [
+    "Quote",
+    "testimonial",
+    "author",
+    "CTA",
+    "background",
+    "pattern"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {
+        "field_64db834d243fc": "TESTIMONIAL",
+        "field_64db834d244fd": "This product has completely transformed our business operations and exceeded all our expectations.",
+        "field_64db834d245fe": "John Smith",
+        "field_64db834d246ff": "CEO, Tech Solutions Inc.",
+        "field_64db834d247fg": true,
+        "field_64db834d248fh": "Learn More",
+        "field_64db834d249fi": "#",
+        "field_64db834d250fj": "background-image.jpg"
+      },
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}

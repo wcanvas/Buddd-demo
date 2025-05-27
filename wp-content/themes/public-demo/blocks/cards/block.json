@@ -1,0 +1,45 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "acf/cards",
+  "title": "Cards",
+  "category": "wcbfse-blocks",
+  "icon": "grid-view",
+  "description": "A two-column layout featuring a section with label, heading and call-to-action button alongside three feature cards with images, titles and descriptions on a light green background.",
+  "keywords": [
+    "Cards",
+    "features",
+    "grid",
+    "layout",
+    "two-column"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {},
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}
