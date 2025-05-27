@@ -1,0 +1,45 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "acf/cards-v2",
+  "title": "Cards v2",
+  "category": "wcb-blocks",
+  "icon": "grid-view",
+  "description": "Display a collection of cards with transparent backgrounds that showcase content over a green section background color",
+  "keywords": [
+    "Cards v2",
+    "cards",
+    "grid",
+    "transparent",
+    "layout"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {},
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}

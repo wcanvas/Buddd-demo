@@ -1,0 +1,45 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "acf/full-width-banner-v2",
+  "title": "Full Width Banner V2",
+  "category": "wcbfse-blocks",
+  "icon": "format-image",
+  "description": "A full-width banner block with enhanced styling and layout options for creating impactful hero sections and promotional banners.",
+  "keywords": [
+    "Full Width Banner V2",
+    "banner",
+    "hero",
+    "full-width",
+    "promotional"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {},
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}
