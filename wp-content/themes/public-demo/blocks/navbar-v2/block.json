@@ -1,0 +1,46 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "acf/navbar-v2",
+  "title": "Navbar V2",
+  "category": "wcbfse-blocks",
+  "icon": "menu-alt3",
+  "description": "A responsive navigation bar with left-aligned logo, centered menu with 4 links (Features, Pricing, Blog, About us), and right-side action buttons including outlined 'Contact us' and solid 'Download the app' buttons on a light green background",
+  "keywords": [
+    "Navbar V2",
+    "navigation",
+    "menu",
+    "header",
+    "logo",
+    "buttons"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {},
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}
