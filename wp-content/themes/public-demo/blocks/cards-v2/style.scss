@@ -1,0 +1,26 @@
+@use "sass:map";
+
+.wp-block-acf-cards-v2 {
+/* Custom Swiper Pagination styles */
+        .js-swiper-pagination .swiper-pagination-bullet {
+            background-color: #A0AEC0; /* pagination-bullet */
+            opacity: 0.6;
+            transition: opacity 0.3s, background-color 0.3s;
+            width: 8px;
+            height: 8px;
+            margin: 0 4px !important; /* Ensure spacing, !important if Swiper's own styles are too strong */
+        }
+        .js-swiper-pagination .swiper-pagination-bullet-active {
+            background-color: #232E26; /* bg-main */
+            opacity: 1;
+        }
+        /* Ensure vertical alignment of text content in swiper slides if heights vary slightly */
+        .swiper-slide {
+            height: auto; /* Allow slides to grow based on content */
+            display: flex;
+            flex-direction: column;
+        }
+         .swiper-slide > div { /* Direct child div of swiper-slide, which is the card content */
+            flex-grow: 1; /* Make card content take available space, ensures uniform base alignment if needed */
+        }
+}

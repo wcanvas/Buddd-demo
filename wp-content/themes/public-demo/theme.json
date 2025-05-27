@@ -103,6 +103,11 @@
           "color": "#3B5249",
           "name": "Background Pattern Secondary",
           "slug": "bg-pattern-secondary"
+        },
+        {
+          "color": "#A0AEC0",
+          "name": "Pagination Bullet",
+          "slug": "pagination-bullet"
         }
       ]
     },
