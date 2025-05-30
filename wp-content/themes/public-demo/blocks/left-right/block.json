@@ -1,0 +1,46 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "acf/left-right",
+  "title": "Left-right",
+  "category": "wcbfse-blocks",
+  "icon": "leftright",
+  "description": "A flexible left-right layout block with image and text content that can be switched between left and right positions from the admin panel",
+  "keywords": [
+    "Left-right",
+    "layout",
+    "image",
+    "text",
+    "switch",
+    "flexible"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {},
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}

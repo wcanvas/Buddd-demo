@@ -108,6 +108,91 @@
           "color": "#A0AEC0",
           "name": "Pagination Bullet",
           "slug": "pagination-bullet"
+        },
+        {
+          "color": "#243027",
+          "name": "Custom Text Dark",
+          "slug": "custom-text-dark"
+        },
+        {
+          "color": "#F3E8FF",
+          "name": "Custom Purple Pills Background",
+          "slug": "custom-purple-pills-bg"
+        },
+        {
+          "color": "#8B5CF6",
+          "name": "Custom Purple Pills Text",
+          "slug": "custom-purple-pills-text"
+        },
+        {
+          "color": "#EBFFF0",
+          "name": "Custom Card Background",
+          "slug": "custom-card-bg"
+        },
+        {
+          "color": "#FFF3E0",
+          "name": "Mockup Item Orange Background",
+          "slug": "mockup-item-orange-bg"
+        },
+        {
+          "color": "#E3F2FD",
+          "name": "Mockup Item Blue Background",
+          "slug": "mockup-item-blue-bg"
+        },
+        {
+          "color": "#F5F5F5",
+          "name": "Mockup Item Gray Background",
+          "slug": "mockup-item-gray-bg"
+        },
+        {
+          "color": "#EDE9FE",
+          "name": "Mockup PO Background From",
+          "slug": "mockup-po-bg-from"
+        },
+        {
+          "color": "#5B21B6",
+          "name": "Mockup PO Text",
+          "slug": "mockup-po-text"
+        },
+        {
+          "color": "#7C3AED",
+          "name": "Mockup PO Button Background",
+          "slug": "mockup-po-button-bg"
+        },
+        {
+          "color": "#6D28D9",
+          "name": "Mockup PO Button Hover Background",
+          "slug": "mockup-po-button-hover-bg"
+        },
+        {
+          "color": "#E9D5FF",
+          "name": "Mockup Funding Icon Background",
+          "slug": "mockup-funding-icon-bg"
+        },
+        {
+          "color": "#C4B5FD",
+          "name": "Mockup Connecting Line",
+          "slug": "mockup-connecting-line"
+        },
+        {
+          "color": "#d9efde4d",
+          "name": "Custom Divider",
+          "slug": "custom-divider"
+        },
+        {
+          "color": "#d9efdecc",
+          "name": "Figma Text Light",
+          "slug": "figma-text-light"
+        },
+        {
+          "color": "#285b5226",
+          "name": "Custom Chart Area Background",
+          "slug": "custom-chart-area-bg"
+        },
+        {
+          "color": "#232e264d",
+          "name": "Custom Accordion Border",
+          "slug": "custom-accordion-border"
         }
       ]
     },
@@ -340,8 +425,8 @@
               "fontWeight": "600",
               "fontDisplay": "swap",
               "src": [
-                "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSizfAA.woff2",
-                "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USS_w.woff2"
+                "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwaPGQ3q5d0N7w.woff2",
+                "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwiPGQ3q5d0.woff2"
               ]
             },
             {
@@ -352,6 +437,16 @@
               "src": [
                 "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ3q5d0N7w.woff2",
                 "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPGQ3q5d0.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Lato",
+              "fontStyle": "normal",
+              "fontWeight": "900",
+              "fontDisplay": "swap",
+              "src": [
+                "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwiPGQ3q5d0N7w.woff2",
+                "https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XSwaPGQ3q5d0.woff2"
               ]
             }
           ]
@@ -381,6 +476,45 @@
           "fontFamily": "Graphik, sans-serif",
           "slug": "graphik",
           "fontFace": []
+        },
+        {
+          "fontFamily": "Geist, sans-serif",
+          "slug": "geist",
+          "fontFace": [
+            {
+              "fontFamily": "Geist",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "fontDisplay": "swap",
+              "src": [
+                "https://fonts.gstatic.com/s/geist/v3/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOMInpna-1Q.woff2",
+                "https://fonts.gstatic.com/s/geist/v3/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOMIlJna-1Q.woff2",
+                "https://fonts.gstatic.com/s/geist/v3/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOMImpna.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Geist",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "fontDisplay": "swap",
+              "src": [
+                "https://fonts.gstatic.com/s/geist/v3/gyByhwUxId8gMGYQMKR3pzfaWI_RnOMInpna-1Q.woff2",
+                "https://fonts.gstatic.com/s/geist/v3/gyByhwUxId8gMGYQMKR3pzfaWI_RnOMIlJna-1Q.woff2",
+                "https://fonts.gstatic.com/s/geist/v3/gyByhwUxId8gMGYQMKR3pzfaWI_RnOMImpna.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Geist",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "fontDisplay": "swap",
+              "src": [
+                "https://fonts.gstatic.com/s/geist/v3/gyByhwUxId8gMGYQMKR3pzfaWI_RnOMInpna-1Q.woff2",
+                "https://fonts.gstatic.com/s/geist/v3/gyByhwUxId8gMGYQMKR3pzfaWI_RnOMIlJna-1Q.woff2",
+                "https://fonts.gstatic.com/s/geist/v3/gyByhwUxId8gMGYQMKR3pzfaWI_RnOMImpna.woff2"
+              ]
+            }
+          ]
         }
       ]
     },

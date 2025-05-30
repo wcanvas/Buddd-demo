@@ -1,0 +1,46 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "acf/hero-stack",
+  "title": "Hero Stack",
+  "category": "wcb-blocks",
+  "icon": "cover-image",
+  "description": "A versatile hero section block that allows stacking of multiple content elements like headings, text, buttons, and media to create compelling page headers and featured content areas.",
+  "keywords": [
+    "Hero Stack",
+    "hero",
+    "banner",
+    "header",
+    "featured",
+    "stack"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {},
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}

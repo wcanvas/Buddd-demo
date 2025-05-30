@@ -1,0 +1,45 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "acf/section-cards",
+  "title": "Section Cards",
+  "category": "wcb-blocks",
+  "icon": "grid-view",
+  "description": "A flexible section block for displaying content in card layouts with customizable styling and arrangement options.",
+  "keywords": [
+    "Section Cards",
+    "cards",
+    "grid",
+    "layout",
+    "content"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {},
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}
