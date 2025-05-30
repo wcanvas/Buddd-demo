@@ -1,0 +1,46 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "acf/cards-with-icons",
+  "title": "Cards With Icons",
+  "category": "wcbfse-blocks",
+  "icon": "grid-view",
+  "description": "Display a collection of cards featuring custom uploaded icons and content, perfect for showcasing services, features, or key information in an organized grid layout.",
+  "keywords": [
+    "Cards With Icons",
+    "cards",
+    "icons",
+    "grid",
+    "features",
+    "services"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {},
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}
